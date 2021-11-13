@@ -1,0 +1,22 @@
+.drawrer-styles {
+  background-color: #ffffff;
+  padding: 15px;
+  height: 100%;
+}
+.css-w6ahim-MuiPaper-root-MuiAppBar-root {
+  box-shadow: none !important;
+}
+.dashbtn {
+  width: 100%;
+  padding: 12px 35px;
+  font-weight: 400;
+  background-color: #0c4c88;
+  border: 1px solid transparent;
+  border-radius: 0;
+  color: #ffffff;
+}
+.dashbtn:hover {
+  background-color: #333333;
+  transition: all 0.3s;
+  color: #ffe9e3;
+}

@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  align-items: center;
+
+  background-color: rgb(3, 9, 58);
+  color: white;
+  font-family: Helvetica;
+  font-weight: 300;
+}
+
+.navbar__title {
+  margin-right: auto;
+  font-size: 150%;
+  padding: 12px 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.navbar__item {
+  padding: 16px 16px;
+  cursor: pointer;
+  vertical-align: middle;
+  font-size: 25px;
+  text-decoration: none;
+  color: white !important;
+}
