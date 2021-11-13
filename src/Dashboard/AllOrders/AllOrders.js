@@ -7,7 +7,7 @@ const AllOrders = () => {
   const [order, setOrders] = useState([]);
   const { user } = useAuth();
   useEffect(() => {
-    fetch("http://localhost:5005/orders")
+    fetch("https://supercars2021.herokuapp.com/orders")
       .then((res) => res.json())
       .then((data) => setOrders(data));
   }, []);
@@ -17,7 +17,7 @@ const AllOrders = () => {
   const handleDeleteUser = (id) => {
     const proceed = window.confirm("Are you sure, you want to delete?");
     if (proceed) {
-      const url = `http://localhost:5005/orders/${id}`;
+      const url = `https://supercars2021.herokuapp.com/orders/${id}`;
       fetch(url, {
         method: "DELETE",
       })
