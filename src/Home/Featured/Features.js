@@ -8,7 +8,7 @@ const Features = () => {
   const [cars, setCars] = useState([]);
 
   useEffect(() => {
-    fetch("./cars.json")
+    fetch("https://supercars2021.herokuapp.com/cars")
       .then((res) => res.json())
       .then((data) => setCars(data));
   }, []);
